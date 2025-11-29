@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #-------------------------
 # Operating Specific Junk Files
 #-------------------------
@@ -124,3 +125,52 @@ _modules/*
 
 /results/
 /phpunit*.xml
+=======
+# -------- CodeIgniter 4 --------
+
+# Environment file
+.env
+env
+
+# Vendor folder
+/vendor/
+composer.lock
+
+# PHP Spark Console
+spark
+
+# Writable (cache, logs, session, uploads, etc)
+writable/*
+!writable/index.html
+!writable/.htaccess
+
+# Logs
+writable/logs/*
+!writable/logs/index.html
+!writable/logs/.htaccess
+
+# Cache
+writable/cache/*
+!writable/cache/index.html
+!writable/cache/.htaccess
+
+# Session
+writable/session/*
+!writable/session/index.html
+!writable/session/.htaccess
+
+# Build (optional)
+public/build/
+
+# Node (optional)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE / OS files
+.vscode/
+.idea/
+*.code-workspace
+Thumbs.db
+.DS_Store
+>>>>>>> dbb623b641f5c4227163684b8f01a5cfeebf56be
