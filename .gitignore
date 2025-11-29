@@ -31,9 +31,6 @@ writable/session/*
 !writable/session/index.html
 !writable/session/.htaccess
 
-# Uploads (optional)
-# writable/uploads/*
-
 # Build (optional)
 public/build/
 
