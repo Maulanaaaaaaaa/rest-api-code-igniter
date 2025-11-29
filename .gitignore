@@ -1,18 +1,50 @@
-*/config/development
-*/logs/log-*.php
-!*/logs/index.html
-*/cache/*
-!system/cache/*
-!*/cache/index.html
-!*/cache/.htaccess
+# -------- CodeIgniter 4 --------
 
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
+# Environment file
+.env
+env
 
-#codeigniter 3
-application/logs/*
-!application/logs/index.html
-!application/logs/.htaccess
+# Vendor folder
 /vendor/
+composer.lock
+
+# PHP Spark Console
+spark
+
+# Writable (cache, logs, session, uploads, etc)
+writable/*
+!writable/index.html
+!writable/.htaccess
+
+# Logs
+writable/logs/*
+!writable/logs/index.html
+!writable/logs/.htaccess
+
+# Cache
+writable/cache/*
+!writable/cache/index.html
+!writable/cache/.htaccess
+
+# Session
+writable/session/*
+!writable/session/index.html
+!writable/session/.htaccess
+
+# Uploads (optional)
+# writable/uploads/*
+
+# Build (optional)
+public/build/
+
+# Node (optional)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE / OS files
+.vscode/
+.idea/
+*.code-workspace
+Thumbs.db
+.DS_Store
